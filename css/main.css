@@ -1,0 +1,30 @@
+.block{
+  display: inline-block;
+  width: 300px;
+  height: max-content;
+  background-color: #70E0FA;
+  border: #0D6579 solid 5px;
+  margin: auto 5px;
+  transition: 400ms;
+}
+
+.head{
+  text-align: center;
+  font-family: Tahoma, sans-serif;
+  transition: 400ms;
+}
+
+.text{
+  font-family: "Corbel Light", sans-serif;
+  padding: 0 15px;
+  font-size: x-large;
+  transition: 400ms;
+}
+
+.block:hover{
+  background-color: #02238E;
+  border: #FFFFFF solid 5px;
+  border-radius: 20px;
+  box-shadow: 0 0 2px 3px gray;
+  color: #FFFFFF;
+}
